@@ -1,0 +1,366 @@
+{
+	"ionic": [
+		{
+			"Date": "2020/07",
+			"PNum": "5",
+			"Location": "Yuntech",
+			"TotalTime": "960",
+			"Event": [
+				{
+					"EventName": "主題介紹",
+					"Trigger":"工程專業",
+					"ActivityList": [
+						{
+							"Activity": "說明MVC架構",
+							"Time": "10"
+						},
+						{
+							"Activity": "說明網頁框架Angular",
+							"Time": "10"
+						},
+						{
+							"Activity": "說明什麼是模組化",
+							"Time": "10"
+						},
+						{
+							"Activity": "介紹ionic工具"
+						}
+					]
+				},
+				{
+					"EventName": "實作案例展示",
+					"Trigger":["工程專業","輔助說明"],
+					"ActivityList": [
+						{
+							"Activity": "以ionic製作的訂房App實例",
+							"Time": "5"
+						},
+						{
+							"Activity": "拆解訂房App",
+							"Time": "10"
+						},
+						{
+							"Activity": "說明拆解後的部件與模組化",
+							"Time": "10"
+						}
+					]
+				},
+				{
+					"EventName": "環境架設",
+					"Trigger":["工程專業","協同執行","Debug"],
+					"ActivityList": [
+						{
+							"Activity":["安裝nodejs","安裝Angular","安裝ionic","建立空白專案"],
+							"Time": "35"
+						},
+						{
+							"Activity": "說明專案結構",
+							"Time": "15"
+						}
+					]
+				},
+				{
+					"EventName": "案例實作",
+					"Trigger":["工程專業","協同執行","Debug","人力不足","程式撰寫","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": [
+								"架設後台資料庫",
+								"方法解說"
+							],
+							"Time": "40"
+						},
+						{
+							"Activity": [
+								"撰寫前端程式碼",
+								"說明程式碼"
+							],
+							"Time": "720"
+						},
+						{
+							"Activity": [
+								"巡場觀察情況",
+								"疑難排除"
+							],
+							"Time": "60"
+						},
+						{
+							"Activity": "Break Time",
+							"Time": "25"
+						}
+					]
+				}
+			]
+		}
+	],
+	"Arduino": [
+		{
+			"Date": "2020/07",
+			"PNum": "5",
+			"Location": "Yuntech",
+			"TotalTime": "600",
+			"Event": [
+				{
+					"EventName": "實體零件介紹",
+					"Trigger":["人力不足","工程專業","輔助說明"],
+					"ActivityList": [
+						{
+							"Activity": "拿取零件",
+							"Time": "10"
+						},
+						{
+							"Activity": "零件介紹",
+							"Time": "20"
+						}
+					]
+				},
+				{
+					"EventName": "案例分享",
+					"Trigger":["工程專業","輔助說明"],
+					"ActivityList": [
+						{
+							"Activity": "網上搜索案例",
+							"Time": "20"
+						},
+						{
+							"Activity": "拆解案例",
+							"Time": "20"
+						}
+					]
+				},
+				{
+					"EventName": "線路串接",
+					"Trigger":"工程專業",
+					"ActivityList": [
+						{
+							"Activity": [
+								"線路邏輯講解",
+								"實際接線展示"
+							],
+							"Time": "60"
+						}
+					]
+				},
+				{
+					"EventName": "實作練習",
+					"Trigger":["Debug","工程專業","協同執行","程式撰寫","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": [
+								"線路練習",
+								"編程練習",
+								"混合練習",
+								"疑難排解"
+							],
+							"Time": "380"
+						}
+					]
+				},
+				{
+					"EventName": "編程講解",
+					"Trigger":"工程專業",
+					"ActivityList": [
+						{
+							"Activity": [
+								"Arduino C講解",
+								"Python講解"
+							],
+							"Time": "60"
+						}
+					]
+				},
+				{
+					"EventName": "環境架設",
+					"Trigger":["工程專業","Debug","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": "後台資料庫建立",
+							"Time": "30"
+						}
+					]
+				}
+			]
+		}
+	],
+	"P5js": [
+		{
+			"Date": "2021/01",
+			"PNum": "4",
+			"Location": "Online",
+			"TotalTime": "480",
+			"Event": [
+				{
+					"EventName": "主題介紹",
+					"Trigger":"工程專業",
+					"ActivityList": [
+						{
+							"Activity": "介紹P5js工具",
+							"Time": "20"
+						},
+						{
+							"Activity": "說明網頁框架Angular",
+							"Time": "20"
+						},
+						{
+							"Activity": "P5js用於網頁呈現案例",
+							"Time": "20"
+						}
+					]
+				},
+				{
+					"EventName": "環境架設",
+					"Trigger":["Debug","工程專業","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": [
+								"安裝nodejs",
+								"安裝Angular",
+								"引入p5js套件",
+								"建立空白專案"
+							],
+							"Time": "40"
+						}
+					]
+				},
+				{
+					"EventName": "技術指引",
+					"Trigger":["輔助說明","工程專業"],
+					"ActivityList": [
+						{
+							"Activity": "如何利用P5js文件",
+							"Time": "20"
+						},
+						{
+							"Activity": "程式碼說明",
+							"Time": "30"
+						}
+					]
+				},
+				{
+					"EventName": "實作練習",
+					"Trigger":["工程專業","人力不足","Debug","協同執行","程式撰寫","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": "P5js基礎撰寫練習(利用文件)",
+							"Time": "80"
+						},
+						{
+							"Activity": "利用P5js撰寫個人頁面",
+							"Time": "120"
+						},
+						{
+							"Activity": "Break Time",
+							"Time": "40"
+						}
+					]
+				},
+				{
+					"EventName": "相關應用",
+					"Trigger":["工程專業","輔助說明","狀況觀察","Debug"],
+					"ActivityList": [
+						{
+							"Activity": "講解版本控制",
+							"Time": "10"
+						},
+						{
+							"Activity": "介紹Github",
+							"Time": "15"
+						},
+						{
+							"Activity": "說明使用方法",
+							"Time": "20"
+						},
+						{
+							"Activity": "等待參與者實機操作",
+							"Time": "30"
+						},
+						{
+							"Activity": "疑難排解",
+							"Time": "15"
+						}
+					]
+				}
+			]
+		}
+	],
+	"PWA": [
+		{
+			"Date": "2022/08",
+			"PNum": "3",
+			"Location": "Yuntech",
+			"TotalTime": "480",
+			"Event": [
+				{
+					"EventName": "設計發想",
+					"Trigger":["設計專業","欠缺想法","想法收束","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": [
+								"列出發想題目",
+								"說明題目"
+							],
+							"Time": "20"
+						},
+						{
+							"Activity": [
+								"等待參與者於白板上各自發想",
+								"觀察撰寫情況",
+								"給予提示"
+							],
+							"Time": "40"
+						}
+					]
+				},
+				{
+					"EventName": "技術指引",
+					"Trigger":"工程專業",
+					"ActivityList": [
+						{
+							"Activity": "說明PWA",
+							"Time": "40"
+						},
+						{
+							"Activity": "PWA案例說明",
+							"Time": "40"
+						},
+						{
+							"Activity": "說明使用方法",
+							"Time": "40"
+						}
+					]
+				},
+				{
+					"EventName": "發想修正",
+					"Trigger":["資料分析","資料紀錄","設計專業","給予建議","狀況觀察","協同執行"],
+					"ActivityList": [
+						{
+							"Activity": [
+								"給予修正意見",
+								"等待參與者修正",
+								"觀察撰寫情況"
+							],
+							"Time": "120"
+						},
+						{
+							"Activity": "Break Time",
+							"Time": "60"
+						}
+					]
+				},
+				{
+					"EventName": "實機操作",
+					"Trigger":["工程專業","Debug","人力不足","狀況觀察"],
+					"ActivityList": [
+						{
+							"Activity": [
+								"嘗試使用PWA套件",
+								"疑難排解"
+							],
+							"Time": "120"
+						}
+					]
+				}
+			]
+		}
+	]
+}

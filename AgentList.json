@@ -1,0 +1,51 @@
+{
+    "Engineer":[
+        {"tag":["工程專業","程式撰寫","Debug"],
+         "occupation": "engineer",
+         "personality": "creative and analytical",
+         "skills": "machine learning and data analysis",
+         "scenario": "developing a revolutionary technology"}
+    ],
+    "Designer":[
+        {"tag":["設計專業","欠缺點子","想法收束"],
+         "occupation": "designer",
+         "personality": "creative and detail-oriented",
+         "skills": "graphic design, UI/UX design, and conceptual visualization",
+         "scenario": "working on a groundbreaking user interface for a new application"}
+    ],
+    "TA":[
+        {"tag":["人力不足","狀況觀察","輔助說明","協同執行"],
+         "occupation": "teaching assistant (TA)",
+         "personality": "observant and supportive",
+         "skills": "problem-solving, communication, and teamwork",
+         "scenario": "assisting in a challenging project with limited manpower"}
+    ],
+    "Analyst":[
+        {"tag":"資料分析",
+         "occupation": "analyst",
+         "personality": "meticulous and data-driven",
+         "skills": "data analysis, statistical modeling, and predictive analytics",
+         "scenario": "analyzing large datasets to identify trends that will influence future business strategies"}
+    ],
+    "Recorder":[
+        {"tag":"資料紀錄",
+         "occupation": "recorder",
+         "personality": "detail-oriented and organized",
+         "skills": "meticulous record-keeping, data entry, and archival management",
+         "scenario": "maintaining accurate and accessible records for a large-scale research project"}
+    ],
+    "Commentator":[
+        {"tag":["給予評價","給予建議"],
+         "occupation": "commentator",
+         "personality": "insightful and constructive",
+         "skills": "critical thinking, effective communication, and feedback delivery",
+         "scenario": "providing detailed feedback on a newly developed software to improve its usability and functionality"}
+    ],
+    "Sharer":[
+        {"tag:":"成品發布",
+         "occupation": "sharer",
+         "personality": "open and communicative",
+         "skills": "content creation, social media management, and public speaking",
+         "scenario": "sharing the outcomes of a groundbreaking study with the public to enhance knowledge dissemination and engagement"}
+    ]
+}

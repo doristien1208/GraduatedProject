@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workshop</title>
+    <style>
+        /* 添加一些基本的样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .stage {
+            margin-top: 20px;
+        }
+
+        .task {
+            margin-top: 10px;
+        }
+
+        .time {
+            margin-top: 10px;
+        }
+
+        .chat {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 200px;
+            overflow-y: auto;
+        }
+
+        .user-message {
+            color: blue;
+        }
+
+        .assistant-message {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <h2>當前活動</h2>
+        <p id="currentStage">創意思考</p>
+    </div>
+
+    <div class="task">
+        <h2>當前任務</h2>
+        <p id="currentTask">利用便條寫下創意</p>
+    </div>
+
+    <div class="time">
+        <h2>剩餘時間</h2>
+        <p id="remainingTime">15 Min</p>
+    </div>
+
+    <div class="chat" id="chatContainer"></div>
+
+    <input type="text" id="userInput" placeholder="在這裡發出訊息">
+
+    <script src="script1.js"></script>
+</body>
+</html>
